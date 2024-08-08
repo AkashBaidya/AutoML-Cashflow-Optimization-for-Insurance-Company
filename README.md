@@ -1,74 +1,49 @@
-# 📊 Sales Dashboard Using Power BI
+AutoML Cashflow Optimization for Insurance Company 🚀
+This project aims to optimize the prediction of insurance charges using automated machine learning (AutoML). By evaluating multiple machine learning models, this project identifies the most effective algorithms for predicting insurance charges based on customer demographics and regional data.
 
-Welcome to the Sales Dashboard project! This repository showcases a Power BI project that visualizes global sales data using an interactive dashboard. The dataset used is from the Global Superstore, and the objective was to derive meaningful insights and present them in a user-friendly manner.
+Project Overview 📊
+The project utilizes a variety of machine learning models to predict insurance charges. The models are rigorously evaluated based on several performance metrics, including R2 Score, Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE). The analysis includes visual representations of model performance and comparisons between predicted and actual values on both training and test datasets.
 
-## 🛠️ Project Overview
+Key Features
+Model Evaluation and Selection:
 
-In this project, I have created an interactive Power BI Sales Dashboard based on Global Super Store sales data. The dashboard provides a comprehensive view of sales performance across various dimensions, such as region, category, and customer segment. The dashboard also includes a drill-through feature that allows users to navigate from a high-level summary to detailed product-level insights.
+The project evaluates a wide range of models, including Gradient Boosting Regressor, Random Forest Regressor, Lasso Regression, and others.
+Models are compared using key metrics like R2 score, MAE, and MSE to identify the top performers.
+Performance Visualization:
 
-![Sales Dashboard Overview](https://github.com/yourusername/yourrepositoryname/blob/main/images/sales_dashboard_overview.png)
+Detailed charts and graphs provide a visual comparison of the predicted versus actual charges across different models.
+Performance analysis is broken down by demographic variables such as age and region, offering insights into how different models perform across different customer segments.
+Model Performance Summary 🔍
+In the model comparison, Gradient Boosting Regressor emerged as the best-performing model with the following metrics:
 
-### 🔍 Key Insights
 
-- **Total Sales:** $3M, with a total of 38K units sold across different regions and categories.
-- **Top Performing Segment:** Consumer segment leads with $1.46M in sales.
-- **Top Product by Profit:** Fellowes PB dominates with the highest profit.
-- **Return Orders:** There were 1,079 return orders, which could indicate areas for improvement in product quality or customer service.
+R2 Score: 83.20%
+Mean Absolute Error (MAE): 2,701.99
+Mean Squared Error (MSE): 23,548,981.36
+Root Mean Squared Error (RMSE): 4,832.97
+Training Time (TT): 0.04 seconds
+The chart above presents a comparative analysis of various models based on the R2 score, highlighting the superiority of the Gradient Boosting Regressor.
 
-### 🔗 Drill-Through Feature
+Performance Analysis on Train and Test Data 📈
+The project provides a detailed performance analysis of the model predictions on both the training and test datasets. This includes an examination of how the models' predictions align with the actual charges based on age and region.
 
-- **Seamless Navigation:** Easily navigate from summary charts to detailed product information.
-- **Product Analysis:** Dive deep into specific products to analyze performance across different years.
+Age-based Analysis
+The charts below display the comparison of predicted and actual charges across different age groups on both training and test data.
 
-## 🔄 ETL Process
 
-To build this dashboard, an ETL (Extract, Transform, Load) process was implemented to prepare the data:
+These visualizations reveal how well the models perform in predicting insurance charges for different age demographics, indicating where the model predictions are more or less accurate.
 
-1. **🧹 Data Cleaning and Transformation:** Power Query was used to clean and transform the data according to the project requirements.
-2. **📊 Calculated Measures and Columns:** DAX (Data Analysis Expressions) was employed to create calculated measures and columns for deeper analysis and more dynamic visualizations.
+Region-based Analysis
+In addition to age, the project analyzes model performance across different geographic regions, providing insights into how location impacts insurance charges.
 
-## 📈 Visualizations and Report Creation
 
-The report is designed with various visualizations, including cards, charts, and slicers, to facilitate easy understanding and provide meaningful insights to the end-user. The main features of the dashboard include:
+The bar charts above illustrate the predicted versus actual charges for different regions, showing the consistency and accuracy of the models in different geographical areas.
 
-- **💡 Total Sales Overview:** A summary of total sales, quantity, average delivery days, and return orders.
-- **📊 Sales Breakdown:** Pie charts displaying sales by segment and category.
-- **🌍 Regional Sales:** A map visualizing sales distribution across different regions.
-- **🏆 Top and Bottom Performers:** Bar charts listing the top 10 customers by profit and top/bottom 5 products by profit.
-- **🔮 Forecasting:** Line charts predicting trends in profits, sales, quantity, and shipping costs over time.
+Conclusion 🏁
+This project demonstrates the power of AutoML in optimizing complex predictions like insurance charges. By systematically evaluating and comparing multiple models, the project identifies the most effective approaches, providing valuable insights into the factors that influence model performance.
 
-![Forecasting](https://github.com/yourusername/yourrepositoryname/blob/main/images/forecasting.png)
+Contributing 🤝
+Contributions are welcome! Whether it's improving the existing models, adding new features, or refining the visualizations, feel free to open an issue or submit a pull request.
 
-## 🔗 Drill-through Overview and Navigation
-
-The dashboard allows for drill-through capabilities, enabling users to explore detailed product-level data from high-level summaries. Here's how the navigation works:
-
-1. **Navigating from Summary to Product Details:**
-   - Users can click on any segment, category, or product in the summary charts.
-   - This action will trigger a drill-through that takes the user to a detailed Product Details page, where specific information about the selected product is displayed.
-
-2. **Product Details Page:**
-   - The Product Details page provides granular data for the selected product, including profit, quantity, sales, shipping cost, and the year of the transaction.
-   - Users can analyze trends and compare performance across different years directly from this page.
-
-3. **Returning to the Summary:**
-   - Users can easily return to the main summary dashboard by using the navigation buttons or breadcrumb links, maintaining a seamless exploration experience.
-
-![Product Details](https://github.com/yourusername/yourrepositoryname/blob/main/images/product_details.png)
-
-## 🛠️ Tools and Technology Used
-
-- **Microsoft Power BI:** For creating the interactive dashboard and reports.
-- **MS Excel:** For initial data exploration and preparation.
-
-## 🗂️ Data Source
-
-The dataset used in this project is available on Kaggle: [Global Superstore Dataset](https://www.kaggle.com/datasets/tahir1413/global-superstore-2016).
-
-### 📥 Download Images
-
-You can download the images used in this project by clicking the links below:
-
-- [Sales Dashboard Overview](https://github.com/yourusername/yourrepositoryname/raw/main/images/sales_dashboard_overview.png)
-- [Forecasting](https://github.com/yourusername/yourrepositoryname/raw/main/images/forecasting.png)
-- [Product Details](https://github.com/yourusername/yourrepositoryname/raw/main/images/product_details.png)
+License 📄
+This project is licensed under the MIT License. See the LICENSE file for more details.

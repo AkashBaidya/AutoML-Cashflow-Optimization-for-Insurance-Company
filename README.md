@@ -21,7 +21,7 @@ The project utilizes a variety of machine learning models to predict insurance c
 
 In the model comparison, Gradient Boosting Regressor emerged as the best-performing model with the following metrics:
 
-![Model Performance](./images/file-1Q6AJTGfI2l1qArPEqgZoimC)
+![Model Performance](./screenshots/modelperformance.png)
 
 - **R2 Score**: 83.20%
 - **Mean Absolute Error (MAE)**: 2,701.99
@@ -39,7 +39,7 @@ The project provides a detailed performance analysis of the model predictions on
 
 The charts below display the comparison of predicted and actual charges across different age groups on both training and test data.
 
-![Age-based Analysis](./images/file-jRp2yECSFVn5iCzuj3PHznDJ)
+![Age-based Analysis](./screenshots/Agebasedanalysis.png)
 
 These visualizations reveal how well the models perform in predicting insurance charges for different age demographics, indicating where the model predictions are more or less accurate.
 
@@ -47,7 +47,7 @@ These visualizations reveal how well the models perform in predicting insurance 
 
 In addition to age, the project analyzes model performance across different geographic regions, providing insights into how location impacts insurance charges.
 
-![Region-based Analysis](./images/file-nyhiLsvo7aLsEB2GQZlyhrkb)
+![Region-based Analysis](./screenshots/Regionbasedanalysis.png)
 
 The bar charts above illustrate the predicted versus actual charges for different regions, showing the consistency and accuracy of the models in different geographical areas.
 
